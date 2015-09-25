@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)preButton:(id)sender {
+    NSLog(@"my name is 刘何全");
+    NSString *myString=@"my name is string";
+    [myString length];
+    NSString *myStringUpper=[myString uppercaseString];
+    NSLog(@"mystring=%@",myString);
+    NSLog(@"myStringUpper=%@",myStringUpper);
+
+}
 @end
